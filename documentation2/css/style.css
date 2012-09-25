@@ -1,0 +1,152 @@
+#content a, a:link, a:visited {
+	color: #007CC6;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#menu a:link, #menu a:visited {
+	color: black;
+}
+
+table {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+thead {
+	background-color: #efefef;
+	text-align: center;
+}
+
+td {
+	padding: 1em;
+	border-color: #eae9e7;
+	border-width: 1px;
+	border-style: solid;
+	border-collapse: collapse;
+}
+
+tbody {
+	background-color: white;
+}
+
+body {
+	background-color: #e7e4df;
+	background-repeat: repeat-y;
+	font-family: helvetica,Verdana,Arial,Geneva,Helvetica,sans-serif;
+	font-size: 12px;
+	line-height: 22px;
+	background-image: url('../images/bg-nav.png');
+}
+
+h1, .title {
+	font-family: 'MyriadProSemibold';
+}
+
+h1 {
+	font-size: 2.813em;
+}
+
+#menu > ul ul {
+	margin-left: 20px;
+}
+
+#menu .item {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-color: #DDD;
+}
+
+.menu_title {
+	margin-left: -11px;
+}
+
+.arrow {
+	width: 15px;
+	height: 22px;
+	background-repeat: no-repeat;
+	background-position: left center;
+	float: left;
+}
+
+.right_arrow {
+	background-image: url('../images/right-arrow.png');
+}
+
+.right_arrow:hover {
+	background-image: url('../images/right-arrow-hover.png');
+}
+
+.down_arrow {
+	background-image: url('../images/down-arrow.png');
+}
+
+.down_arrow:hover {
+	background-image: url('../images/down-arrow-hover.png');
+}
+
+.title {
+	font-size: 2.125em;
+	margin-top: 10px;
+}
+
+.usage {
+	font-family: "Courier New","Andale Mono",monospace;
+	margin: 20px;
+	background-color: white;
+	padding: 10px;
+}
+
+#header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 49px;
+	background-color: black;
+	background-image: url('../images/bg-header.png');
+}
+
+#menu {
+	position: absolute;
+	top: 49px;
+	left: 0;
+	bottom: 0;
+	width: 230px;
+	padding: 20px 0 0 20px;
+}
+
+#content {
+	position: absolute;
+	top: 49px;
+	bottom: 0;
+	right: 0px;
+	left: 250px;
+	padding: 50px;
+}
+
+#quicksearch {
+	position: absolute;
+	top: 13px;
+	left: 79px;
+	background-image: url('../images/search-sprite.png');
+	background-repeat: no-repeat;
+	background-color: transparent;
+	padding: 4px 23px 3px 8px;
+	border-style: none;
+	width: 160px;
+	height: 16px;
+	color: #CCCCCC;
+	font-style: italic;
+	font-family: Helvetica,'MyriadWebProRegular';
+}
+
+.qsactive {
+	background-position: 0px -23px;
+	color: black !important;
+	font-style: normal !important;
+}
